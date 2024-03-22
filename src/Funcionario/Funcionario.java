@@ -10,9 +10,11 @@ public class Funcionario {
         this.departamento = departamento;
         this.salario = salario;
     }
+    //Método Get serve para pegar o nome
     public String getNome(){
         return this.nome;
     }
+    //Método set serve para setar o novo nome
     public void setNome(String nome){
         this.nome = nome;
     }

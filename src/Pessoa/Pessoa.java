@@ -1,9 +1,14 @@
-package Animal;
+package Pessoa;
 
-public class Animal {
+public class Pessoa {
     private String nome;
-    private String tipo;
     private int idade;
+    //construtor
+
+    public Pessoa(String nome, int idade) {
+        this.nome = nome;
+        this.idade = idade;
+    }
 
     public String getNome() {
         return nome;
@@ -11,14 +16,6 @@ public class Animal {
 
     public void setNome(String nome) {
         this.nome = nome;
-    }
-
-    public String getTipo() {
-        return tipo;
-    }
-
-    public void setTipo(String tipo) {
-        this.tipo = tipo;
     }
 
     public int getIdade() {
@@ -29,7 +26,5 @@ public class Animal {
         this.idade = idade;
     }
 
-    public void emitirSom(String som){
-        System.out.println("O animal faz "+som);
-    }
+
 }
