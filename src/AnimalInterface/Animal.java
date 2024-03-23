@@ -4,4 +4,5 @@ public interface Animal {
     void comer();
     void dormir();
     void emitirSom();
+    void definirRaca();
 }

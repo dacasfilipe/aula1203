@@ -1,21 +1,23 @@
 package AnimalInterface;
 
-public class Cachorro implements Animal{
+public class Gato implements Animal{
     @Override
     public void comer() {
-        System.out.println("Comendo.");
+
     }
+
     @Override
     public void dormir() {
-        System.out.println("Dormindo.");
+
     }
+
     @Override
     public void emitirSom() {
-        System.out.println("Auauauau!");
+        System.out.println("Miauuuu");
     }
 
     @Override
     public void definirRaca() {
-        System.out.println("Pug");
+        System.out.println("Gato Persa");
     }
 }
